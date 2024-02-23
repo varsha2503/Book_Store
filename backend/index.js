@@ -1,17 +1,3 @@
-// const express = require("express");
-// const app = express();
-// const  cors = require("cors") ;
-// const bookrouter = require("./routes/bookroutes");
-
-// require("./connections/conn");
-// app.use(cors());
-// app.use(express.json()); // Middleware for parsing JSON bodies
-// app.use("/api/v1", bookrouter);
-
-// app.listen(1000, () => {
-//     console.log("server started");
-// });
-
 // Import required libraries
 const express = require("express"); // Express framework for Node.js
 const app = express(); // Create an instance of the Express application
