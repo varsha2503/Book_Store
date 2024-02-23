@@ -2,6 +2,9 @@
 
 This is a simple Book Store application built with React on the frontend and Node.js with Express and MongoDB on the backend. The application allows users to view a list of books, add new books, update existing books, and view detailed information about each book.
 
+## Heres how it looks
+[![Book Store Application Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+
 ## Features
 - View a list of available books
 - Add a new book with details such as title, author, ISBN, description, price, and image
@@ -43,3 +46,35 @@ To run this application locally, follow these steps:
    npm install
    cd ../backend
    npm install
+
+### Running the Application
+1. Start the backend server: This will start the backend server at http://localhost:1000.
+   ```bash
+   cd backend
+   npm start
+
+2. Start the frontend: This will start the frontend server at http://localhost:3000.
+   ```bash
+   cd frontend
+   npm start
+
+3. Access the application in your browser: Open http://localhost:3000 to view the Book Store application.
+
+## Usage
+- Home: The landing page of the application with a brief introduction to the Book Store.
+- Books: View a list of available books with their titles, authors, prices, and images.
+- Add Book: Add a new book to the store by providing details such as title, author, ISBN, description, price, and image URL.
+- View Book: Click on a book from the list to view detailed information including the full description and ISBN.
+- Update Book: Update existing book details such as title, author, ISBN, description, price, and image URL.
+
+## Folder Structure
+- frontend: Contains the React frontend code.
+- backend: Contains the Node.js backend code.
+
+## Contributing
+
+Contributions are welcome! Please create a new issue for any bug fixes, feature requests, or suggestions. If you would like to contribute code, please fork the repository and submit a pull request.
+
+## Acknowledgements
+
+This project was created as a learning exercise for building full-stack applications.
