@@ -2,14 +2,16 @@
 
 This is a simple Book Store application built with React on the frontend and Node.js with Express and MongoDB on the backend. The application allows users to view a list of books, add new books, update existing books, and view detailed information about each book.
 
-## Heres how it looks
-[![Book Store Application Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+## Deployed Website
+The Book Store application is deployed and accessible at the following link: 
+https://bookstorebyvarsha.netlify.app/
 
 ## Features
 - View a list of available books
 - Add a new book with details such as title, author, ISBN, description, price, and image
 - Update existing book information
 - View detailed information about a specific book
+- Search functionality to find books by title
 
 ## Technologies Used
 - **Frontend**:
